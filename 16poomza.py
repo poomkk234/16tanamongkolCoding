@@ -1,18 +1,19 @@
-point1=int(input("คะเเนนของคุณ: "))
-point2=int(input("คะเเนนของคุณ: "))
-point3=int(input("คะเเนนของคุณ: "))
+point1=int(input("คะเเนนของคุณ1: "))
+point2=int(input("คะเเนนของคุณ2: "))
+point3=int(input("คะเเนนของคุณ3: "))
 
 totalpoint=(point1+point2+point3)
-
-if totalpoint >= 80:
+average = totalpoint /3
+print("คะเเนนรวม =", totalpoint)
+print("คะเเนนเฉลี่ยน 3วิชา= ", average)
+    
+if totalpoint >=80:
     print("ดีเยี่ยม")
 
-if totalpoint >= 60:
+elif totalpoint >= 60:
     print("ผ่าน")
 else:
     print("ควรปรับปรุง")
-
-
 
 
 
